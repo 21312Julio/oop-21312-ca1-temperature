@@ -118,7 +118,7 @@ class ConvertTemp extends JFrame implements ActionListener
     public void actionPerformed(ActionEvent e)
     {
         // Variable for the temperature the user types
-        double temp = Integer.parseInt(t1.getText());
+        double temp = Double.parseDouble(t1.getText());
 
         if(c.isSelected()) // Radio Button
         {
